@@ -1,0 +1,67 @@
+
+  .header{
+    border: solid;  
+    color: rgb(0, 204, 255);
+    display: flex;
+    justify-content: space-around ;
+  }
+  .menu{
+    border: solid;
+    margin-right: 30px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between,
+    
+}
+body {
+     margin:0px; 
+    background-color: rgb(255, 247, 247);
+}
+.grid{
+    border: solid;
+    display: flex;
+
+}
+  .item{
+    border: solid;
+
+    justify-content: space-between;
+}
+.item p{
+  position: absolute;
+  top: 50%;    
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  
+}
+.shoot{
+  border: solid;
+  height: 30px;
+  border-color: gainsboro;
+}
+.footer{
+    border: solid;
+    border: skyblue;
+    display: flex;
+    justify-content: flex-end;
+}
+.origami {
+  border-radius  : 20px;
+  background-color : white;
+  position: relative;
+  width: 310px;
+}
+.origami:hover {
+  transform: scale(1.2);
+}
+a:link{
+  color:white;
+}
+a:visited{
+  color:white;
+}
+a{
+  background-color: teal;
+  text-decoration: none
+}
